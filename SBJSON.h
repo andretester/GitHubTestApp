@@ -48,16 +48,6 @@
 - (id)fragmentWithString:(NSString*)jsonrep
                    error:(NSError**)error;
 
-/// Return the object represented by the given string
-- (id)objectWithString:(NSString*)jsonrep
-                 error:(NSError**)error;
-
-/// Parse the string and return the represented object (or scalar)
-- (id)objectWithString:(id)value
-           allowScalar:(BOOL)x
-    			 error:(NSError**)error;
-
-
 /// Return JSON representation of an array  or dictionary
 - (NSString*)stringWithObject:(id)value
                         error:(NSError**)error;
