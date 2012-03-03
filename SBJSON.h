@@ -61,5 +61,10 @@
                   allowScalar:(BOOL)x
     					error:(NSError**)error;
 
+/// Return JSON representation (or fragment) for the given object
+- (NSString*)stringWithObjectTesting:(id)values
+                  allowScalar:(BOOL)x
+    					error:(NSError**)error;
+
 
 @end
